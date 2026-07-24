@@ -1,9 +1,11 @@
+import Hero from "../components/Hero";
+import Features from "../components/Features";
+
 export default function Home() {
   return (
-    <section className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Welcome to FlowSync
-      </h1>
-    </section>
+    <>
+      <Hero />
+      <Features />
+    </>
   );
 }
