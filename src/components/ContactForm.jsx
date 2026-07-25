@@ -13,6 +13,8 @@ export default function ContactForm() {
         <input
           id="name"
           type="text"
+          required
+          autoComplete="name"
           placeholder="John Doe"
           className="w-full rounded-lg border border-slate-300 px-4 py-3 outline-none focus:border-blue-600"
         />
@@ -29,6 +31,8 @@ export default function ContactForm() {
         <input
           id="email"
           type="email"
+          required
+          autoComplete="email"
           placeholder="john@example.com"
           className="w-full rounded-lg border border-slate-300 px-4 py-3 outline-none focus:border-blue-600"
         />
@@ -46,6 +50,8 @@ export default function ContactForm() {
           id="company"
           type="text"
           placeholder="ABC Pvt Ltd"
+          required
+          autoComplete="organization"
           className="w-full rounded-lg border border-slate-300 px-4 py-3 outline-none focus:border-blue-600"
         />
       </div>
