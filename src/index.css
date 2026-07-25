@@ -4,3 +4,15 @@
   outline: 3px solid #2563eb;
   outline-offset: 3px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
