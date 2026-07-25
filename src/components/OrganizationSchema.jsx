@@ -3,11 +3,9 @@ export default function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "FlowSync",
-    url: "https://flowsync.vercel.app",
-    logo: "https://flowsync.vercel.app/logo.png",
+    url: "https://flowsync-sandy.vercel.app/",
     description:
-      "AI workflow automation platform for modern businesses.",
-    sameAs: [],
+      "FlowSync is an AI workflow automation platform that helps modern businesses automate repetitive work, improve collaboration, and increase productivity.",
   };
 
   return (
