@@ -10,9 +10,10 @@ export default function Product() {
   return (
     <>
       <SEO
-        title="Product | FlowSync"
-        description="Discover how FlowSync helps businesses automate workflows and improve productivity."
-      />
+  title="Product | FlowSync"
+  description="Discover how FlowSync helps businesses automate workflows and improve productivity."
+  url="https://flowsync-sandy.vercel.app/product"
+/>
 
       <ProductHero />
 
