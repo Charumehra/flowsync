@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SecurityImage from "../assets/security.webp";  
 
 export default function ProductHero() {
   return (
@@ -43,9 +44,11 @@ export default function ProductHero() {
 
         <div className="flex-1">
           <img
-            src="https://placehold.co/700x450"
-            alt="FlowSync dashboard"
-            className="rounded-2xl shadow-xl"
+            src={SecurityImage}
+                alt="FlowSync dashboard"
+                loading="lazy"
+                width="700"
+                height="450"
           />
         </div>
 
