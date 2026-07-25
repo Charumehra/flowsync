@@ -1,9 +1,10 @@
 import SEO from "../components/SEO";
 import ProductHero from "../components/ProductHero";
 import PlatformOverview from "../components/PlatformOverview";
-import Integrations from "../components/Integrations";
+import Integration from "../components/Integration";
 import Security from "../components/Security";
 import CTA from "../components/CTA";
+
 
 export default function Product() {
   return (
@@ -17,7 +18,7 @@ export default function Product() {
 
       <PlatformOverview />
 
-      <Integrations />
+      <Integration />
 
       <Security />
 

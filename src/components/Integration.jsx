@@ -9,7 +9,7 @@ const apps = [
   "Jira"
 ];
 
-export default function Integrations() {
+export default function Integration() {
   return (
     <section className="bg-slate-50 py-24">
 
