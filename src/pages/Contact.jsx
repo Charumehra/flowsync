@@ -5,10 +5,10 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact | FlowSync"
-        description="Get in touch with the FlowSync team."
-        url="https://flowsync.vercel.app/contact"
-      />
+  title="Contact | FlowSync"
+  description="Get in touch with the FlowSync team to learn how our workflow automation platform can help your business."
+  url="https://flowsync-sandy.vercel.app/contact"
+/>
 
       <section className="bg-slate-50 py-24">
         <div className="mx-auto max-w-7xl px-6">

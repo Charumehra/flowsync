@@ -1,11 +1,13 @@
 import { Helmet } from "react-helmet-async";
 
+const SITE_URL = "https://flowsync-sandy.vercel.app";
+
 export default function SEO({
   title,
   description,
   keywords,
-  image = "/og-image.png",
-  url = "https://flowsync.vercel.app",
+  image = `${SITE_URL}/og-image.png`,
+  url = SITE_URL,
 }) {
   return (
     <Helmet>
@@ -24,26 +26,20 @@ export default function SEO({
 
       <meta name="author" content="FlowSync" />
 
-      <meta name="robots" content="index,follow" />
+      <meta name="robots" content="index, follow" />
 
-      {/* Canonical */}
-
+      {/* Canonical URL */}
       <link rel="canonical" href={url} />
 
       {/* Open Graph */}
-
       <meta property="og:type" content="website" />
-
+      <meta property="og:site_name" content="FlowSync" />
       <meta property="og:title" content={title} />
-
       <meta property="og:description" content={description} />
-
+      <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
 
-      <meta property="og:url" content={url} />
-
-      {/* Twitter */}
-
+      {/* Twitter / X */}
       <meta
         name="twitter:card"
         content="summary_large_image"
