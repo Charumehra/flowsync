@@ -6,14 +6,21 @@ import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import CTA from "../components/CTA";
 import SEO from "../components/SEO";
+import OrganizationSchema from "../components/OrganizationSchema";
+import SoftwareSchema from "../components/SoftwareSchema";
+import FAQSchema from "../components/FAQSchema";
 
 export default function Home() {
   return (
     <>
       <SEO
-        title="FlowSync | AI Workflow Automation"
-        description="Automate workflows and boost team productivity with FlowSync."
-      />
+    title="Pricing | FlowSync"
+    description="Simple pricing for startups and enterprises."
+    url="https://flowsync.vercel.app/pricing"
+/>
+    <OrganizationSchema />
+    <SoftwareSchema />
+    <FAQSchema />
       <Hero />
       <TrustedCompanies />
       <Features />
