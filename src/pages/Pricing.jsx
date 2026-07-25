@@ -82,10 +82,11 @@ export default function Pricing() {
   return (
     <>
       <SEO
-        title="Pricing | FlowSync"
-        description="Choose a FlowSync plan that fits your team. Start free and scale as your business grows."
-        url="https://flowsync.vercel.app/pricing"
-      />
+  title="Pricing | FlowSync"
+  description="Choose a FlowSync plan that fits your team and scale your business with powerful workflow automation."
+  url="https://flowsync-sandy.vercel.app/pricing"
+/>
+      
 
       {/* Hero */}
       <section className="bg-slate-50 px-6 py-20 sm:py-24">
