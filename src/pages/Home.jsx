@@ -1,11 +1,15 @@
 import Hero from "../components/Hero";
+import TrustedCompanies from "../components/TrustedCompanies";
 import Features from "../components/Features";
+import Stats from "../components/Stats";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <TrustedCompanies />
       <Features />
+      <Stats />
     </>
   );
 }
