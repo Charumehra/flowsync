@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <>
       <SEO
-    title="Pricing | FlowSync"
-    description="Simple pricing for startups and enterprises."
-    url="https://flowsync.vercel.app/pricing"
+  title="FlowSync | AI Workflow Automation"
+  description="Automate workflows, improve collaboration, and increase productivity with FlowSync."
+  url="https://flowsync-sandy.vercel.app/"
 />
     <OrganizationSchema />
     <SoftwareSchema />
